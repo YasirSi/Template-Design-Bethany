@@ -1,0 +1,564 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.eot');
+    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato-Regular.woff2') format('woff2'), url('../fonts/Lato-Regular.woff') format('woff'), url('../fonts/Lato-Regular.ttf') format('truetype'), url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body,
+* {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Header */
+
+header {
+    height: 90vh;
+    width: 100%;
+    background: url('../images/about-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    background-color: #2c2a2a;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+}
+
+header .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-header {
+    padding: 0px;
+}
+
+.nav-title {
+    padding: 9px 25px;
+    background-color: #019970;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.navbar .nav-link {
+    color: #000000;
+}
+
+.navbar .btn {
+    background-color: #019970;
+    color: #ffffff;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.align-item-start {
+    align-items: center;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30vh;
+}
+
+.flex-item-two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 15vh;
+    color: #ffffff;
+    font-style: oblique;
+}
+
+.flex-item-btnn {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item-btnn .btn {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    word-spacing: 3px;
+}
+
+
+/* End Header */
+
+
+/* Whyus */
+
+.whyus .whyrow h2 {
+    color: #474545;
+    font-weight: bolder;
+    font-size: 38px;
+    /* line-height: 50px; */
+    padding-top: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+
+.whyus h4 {
+    color: #414758;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.whyus-reason {
+    padding-top: 40px;
+}
+
+.whyus i {
+    color: #019970;
+}
+
+
+/* .whyrow {
+    padding: 2rem;
+} */
+
+
+/* End Whyus */
+
+
+/* Clients */
+
+.clients {
+    background-color: #019970;
+}
+
+.clients .col-md-3 {
+    padding-left: 90px;
+    padding-top: 40px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.clients h2 {
+    font-weight: bolder;
+}
+
+.clients p {
+    padding-left: 2px;
+}
+
+
+/* End Clients */
+
+
+/* Working */
+
+.working .content {
+    padding: 30px;
+    background: #009970;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.working .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.working .content p {
+    margin-bottom: 30px;
+}
+
+.working .content .more-btn {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.working .card {
+    box-shadow: 5px 5px 5px 5px #f7f3f3;
+}
+
+.working .card i {
+    color: #009970;
+    padding-top: 10px;
+}
+
+.working .card .card_no {
+    color: #3b4240;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.working .card .card-text {
+    text-align: center;
+    color: #8c8785;
+    padding-top: 15px;
+}
+
+
+/* End Working */
+
+
+/* Action */
+
+.action {
+    background-color: #4c4c4c;
+}
+
+.action h3 {
+    color: #ffffff;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.action p {
+    text-align: center;
+    color: #ffffff;
+}
+
+.action .btn {
+    color: #ffffff;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #4c4c4c;
+    word-spacing: 5px;
+}
+
+
+/* End Action */
+
+
+/* Services */
+
+.service {
+    background-color: #f6f6f6;
+}
+
+.head-decoration {
+    font-weight: bolder;
+    padding-top: 50px;
+    position: relative;
+}
+
+.head-decoration::after {
+    content: "";
+    position: absolute;
+    bottom: -25%;
+    left: 0%;
+    width: 3.5vw;
+    border-bottom: 4px solid #009970;
+}
+
+.para-decoration {
+    margin-top: 40px;
+    color: #6d656a;
+}
+
+.service .card-upper {
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px #f7f3f3;
+}
+
+.service .card-lower {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.service .card_no {
+    font-weight: bolder;
+}
+
+.service .card-text {
+    text-align: center;
+    color: #6d656a;
+}
+
+.service .card i {
+    color: #009970;
+    border: 1px solid #009970;
+    border-radius: 50px;
+    padding: 17px;
+}
+
+
+/* End services */
+
+
+/* Portfolio */
+
+.portfolio ul {
+    text-align: center;
+}
+
+.portfolio ul li {
+    display: inline-block;
+    padding-left: 15px;
+    border-radius: 5px;
+    padding-right: 15px;
+}
+
+.portfolio a.active {
+    background: #009970;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* End Portfolio */
+
+
+/* Testimonial */
+
+.testimonial {
+    background-color: #f6f6f6;
+}
+
+.testimonial .card {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.testimonial .card-text {
+    text-align: center;
+    color: #525e5f;
+    font-style: italic;
+}
+
+.testimonial i {
+    color: #64fed4;
+}
+
+.test-img {
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 50% !important;
+    margin-left: 99px !important;
+}
+
+.testimonial h5 {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.test-occ {
+    text-align: center;
+    color: #ab9e9e;
+}
+
+
+/* End Testimonial */
+
+
+/* Team */
+
+.team .team-img {
+    margin: 0px auto;
+    max-width: 80%;
+    padding-top: 20px;
+}
+
+.team img {
+    border-radius: 50%;
+}
+
+.team .card_no {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.team .card_role {
+    color: #605a5c;
+    text-align: center;
+    position: relative;
+}
+
+.team .card_role::after {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 40%;
+    width: 3.5vw;
+    border-bottom: 2px solid #a7a4af;
+}
+
+.team .card-text {
+    text-align: center;
+    font-style: oblique;
+    color: #4f4d58;
+}
+
+.team-handels {
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+
+.team .card {
+    margin-top: 4rem;
+    box-shadow: 5px 5px 5px 5px #f7f3f3;
+    border-radius: 10px;
+}
+
+.team .fab {
+    color: #ffffff;
+    background-color: #a9a6af;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.team .card-bottom {
+    margin-top: 2rem;
+}
+
+
+/* End Team */
+
+
+/* Contact */
+
+.naksha {
+    margin-top: 5rem;
+}
+
+.contact .card {
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 5px #f7f3f3;
+}
+
+.contact .fa {
+    font-size: larger;
+    color: #ffffff;
+    background-color: #009970;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.contact-icon {
+    margin: 0px auto;
+    max-width: 80%;
+    padding: 20px;
+}
+
+.contact-address {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.contact_para {
+    color: #8f888f;
+    font-style: oblique;
+}
+
+.contact .btn {
+    background-color: #019970;
+    color: #ffffff;
+    padding-left: 20px;
+    border-radius: 25px;
+    padding-right: 20px;
+}
+
+
+/* End contact */
+
+
+/* Newsletter */
+
+.news {
+    background-color: #f8f8f8;
+}
+
+.news a {
+    color: #aaaea6;
+}
+
+.news .fa {
+    color: #20c29a;
+}
+
+.news .text-list {
+    color: #aaaea6;
+}
+
+.news form {
+    margin-top: 20px;
+    background: #ffffff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.news form input[type="email"] {
+    border: 0;
+    padding: 4px;
+    width: calc(100% - 100px);
+}
+
+.news form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    margin: 3px;
+    background: #019970;
+    color: #ffffff;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+
+/* End Newsletter */
+
+
+/* Footer */
+
+.footer {
+    background-color: #f1f1f3;
+}
+
+.footer .fab {
+    background-color: #019970;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+/* End Footer */
